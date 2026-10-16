@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF3D8B"/><stop offset="0.55" stop-color="#D1126B"/><stop offset="1" stop-color="#6A0DAD"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBE3A0"/><stop offset="0.5" stop-color="#FFF6D6"/><stop offset="1" stop-color="#D9A93E"/>
+    </linearGradient>
+    <linearGradient id="tip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFC2DA"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="3"/>
+  <!-- rising bars -->
+  <rect x="96"  y="310" width="56" height="90"  rx="14" fill="#FFFFFF" fill-opacity=".45"/>
+  <rect x="168" y="262" width="56" height="138" rx="14" fill="#FFFFFF" fill-opacity=".65"/>
+  <rect x="240" y="214" width="56" height="186" rx="14" fill="#FFFFFF" fill-opacity=".85"/>
+  <!-- lipstick (tallest bar) -->
+  <g>
+    <!-- bullet with slanted tip -->
+    <path d="M330 110 C346 96 372 100 380 118 L392 180 L320 180 L320 128 C320 120 324 114 330 110 Z" fill="url(#tip)"/>
+    <!-- gold ring -->
+    <rect x="314" y="176" width="84" height="44" rx="8" fill="url(#gold)"/>
+    <!-- body -->
+    <rect x="308" y="216" width="96" height="184" rx="16" fill="#1B1B2F"/>
+    <rect x="326" y="238" width="10" height="130" rx="5" fill="#FFFFFF" fill-opacity=".22"/>
+  </g>
+  <!-- sparkle -->
+  <path d="M142 150 L152 178 L180 188 L152 198 L142 226 L132 198 L104 188 L132 178 Z" fill="url(#gold)"/>
+  <circle cx="196" cy="128" r="7" fill="#FFF6D6"/>
+  <circle cx="108" cy="250" r="5" fill="#FFF6D6" fill-opacity=".8"/>
+  <!-- base line -->
+  <rect x="84" y="418" width="344" height="12" rx="6" fill="#FFFFFF" fill-opacity=".9"/>
+</svg>
