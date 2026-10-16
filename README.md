@@ -1,4 +1,3 @@
-::: {align="center"}
 # Sugar Insights
 
 ### Instagram Performance Analytics Dashboard
@@ -193,6 +192,3 @@ shareable app URL.
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-*Built as a data analytics portfolio project.*
-:::
